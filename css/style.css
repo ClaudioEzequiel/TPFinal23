@@ -1,0 +1,18 @@
+/* es para que el menu se quede fijo al realizar roller con el mouse*/
+.sticky-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* efecto boton NUEVO */
+.btn-animate {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+    transform: scale(1.1);
+    /* Aumenta el tamaño del botón */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Agrega una sombra */
+}
