@@ -1,8 +1,17 @@
-/* es para que el menu se quede fijo al realizar roller con el mouse*/
 .sticky-menu {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1000;
+    background-color:#dcdcdc;
+}
+.margen_top_menu{
+    margin-top:80px;
+}
+
+/* sector boton NUEVO */
+.boton_nuevo{
+    margin: 5px;
 }
 
 /* efecto boton NUEVO */
