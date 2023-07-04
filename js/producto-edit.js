@@ -11,7 +11,7 @@ createApp({
       imagen: "",
       stock: 0,
       precio: 0,
-      url: "http://claudioezequiel.pythonanywhere.com/productos" + id,
+      url: "https://suarezfabian.pythonanywhere.com/productos" + id,
     };
   },
   methods: {
