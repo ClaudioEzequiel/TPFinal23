@@ -57,10 +57,12 @@
                                     </td>
                                     <td>
                                         <!-- Botón para editar el producto -->
-                                        <a class="btn btn-primary"
-                                            :href="'producto-update.html?id='+ producto.id">Editar</a>
+                                        <button class="btn btn-primary animate__animated btn-animate boton_margen boton_margen" type="submit">
+                                            <a :href="'producto-update.html?id='+ producto.id">Editar</a>
+                                        </button>
+
                                         <!-- Botón para eliminar el producto -->
-                                        <button type="button" class="btn btn-danger"
+                                        <button type="button" class="btn btn-danger animate__animated btn-animate boton_margen boton_margen"
                                             v-on:click="eliminar(producto.id)">Eliminar</button>
                                     </td>
                                 </tr>
