@@ -18,14 +18,16 @@ document.getElementById(
               <a class="nav-link active" href="index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-             <a class="nav-link" href="producto-create.html">Agregar producto</a>
-             <!-- a class="nav-link" href="#">Link</a -->
+              <a class="nav-link" href="producto-create.html">Agregar producto</a>
+              <!-- a class="nav-link" href="#">Link</a -->
           </li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="productos.html">Produtos</a>
-                  <a class="dropdown-item" href="#">Action 2</a>
+                  <a class="dropdown-item" href="detalle_productos.html">Detalle producto</a>
+                  <a class="dropdown-item" href="producto-create.html">Agregar producto</a>
+                  <a class="dropdown-item" href="productos.html">Editar productos</a>
+                  <a class="dropdown-item" href="detalle_productos-delete.html">Elimina productos</a>
               </div>
           </li>
       </ul>
