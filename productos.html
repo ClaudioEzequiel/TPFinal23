@@ -38,10 +38,10 @@
                             <thead class="table-dark">
                                 <tr>
                                     <th scope="col">Id</th>
-                                    <th scope="col">Nombre</th>
+                                    <th scope="col" colspan="2">Producto</th>
+                                    <!-- th scope="col">Imagen</th -->
                                     <th scope="col">Precio</th>
                                     <th scope="col">Stock</th>
-                                    <th scope="col">Imagen</th>
                                     <th scope="col">Acciones</th>
                                 </tr>
                             </thead>
@@ -49,12 +49,13 @@
                                 <!-- Iterar sobre cada producto -->
                                 <tr class="" v-for="producto in productos">
                                     <td scope="row">{{producto.id}}</td>
-                                    <td>{{producto.nombre}}</td>
-                                    <td>{{producto.precio}} $</td>
-                                    <td>{{producto.stock}}</td>
+                                    <td style="font-weight: bold;">{{producto.nombre}}</td>
                                     <td style="text-align: center;">
                                         <img height="250" :src="producto.imagen" :alt="producto.nombre">
                                     </td>
+                                    <td>{{producto.precio}} $</td>
+                                    <td style="text-align: center;">{{producto.stock}} unidades</td>
+
                                     <td>
                                         <!-- Botón para editar el producto -->
                                         <button class="btn btn-primary animate__animated btn-animate boton_margen boton_margen" type="submit">
