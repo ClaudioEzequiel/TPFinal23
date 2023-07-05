@@ -3,7 +3,7 @@ El código se encarga de asignar el contenido HTML al elemento con el id "header
 */
 document.getElementById(
   "header"
-).innerHTML = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
+).innerHTML = ` <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-menu">
 <div class="container">
   <a class="navbar-brand" href="index.html">
         <img src="img/logo Tienda TECNO.png" width="150" alt="Tienda TECNO">
@@ -24,7 +24,7 @@ document.getElementById(
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="detalle_productos.html">Detalle producto</a>
+                  <a class="dropdown-item" href="detalle_productos.html">Detalle productos</a>
                   <a class="dropdown-item" href="producto-create.html">Agregar producto</a>
                   <a class="dropdown-item" href="productos.html">Editar productos</a>
                   <a class="dropdown-item" href="detalle_productos-delete.html">Elimina productos</a>
