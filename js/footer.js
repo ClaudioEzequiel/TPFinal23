@@ -7,7 +7,7 @@ document.getElementById(
 <div class="row">
 		<div class="col-md-12 copy">
 			<p class="text-center">&copy; Copyright 2023 - <strong>Tienda TECNO</strong>.  All rights reserved.</p>
-			<p class="text-center">Diseño realizado por Claudio Guzman | Fabián Suárez.</p>
+			<p class="text-center designer">Diseño realizado por Claudio Guzman | Fabián Suárez.</p>
 		</div>
 	</div>
 `;
