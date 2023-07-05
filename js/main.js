@@ -18,7 +18,7 @@ document.getElementById(
               <a class="nav-link active" href="index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="producto-create.html">Agregar producto</a>
+              <!-- a class="nav-link" href="producto-create.html">Agregar producto</!-- -->
               <!-- a class="nav-link" href="#">Link</a -->
           </li>
           <li class="nav-item dropdown">
