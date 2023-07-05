@@ -35,6 +35,14 @@
     /* Agrega una sombra */
 }
 
+tr img {
+    transition: transform 0.5s ease;
+  }
+tr:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+  }
+
 
 
 /* footer */
