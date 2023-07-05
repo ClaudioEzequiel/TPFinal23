@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Listar Productos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header id="header">
+        <!-- Coloca la barra de navegación aquí -->
+    </header>
+    <main>
+        <div id="app" class="container margen_top_menu" >
+            <h1>Eliminar Productos</h1>
+            <div v-if="error">
+                <p style="color:red;">Lo sentimos, ha ocurrido un error.</p>
+            </div>
+            <div v-else>
+                <section v-if="cargando">
+                    <div class="spinner-border"></div>
+                    <p>Cargando...</p>
+                </section>
+                <section v-else>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-dark">
+                                <tr style="text-align: center;">
+                                    <th scope="col">Id</th>
+                                    <th scope="col" colspan="2">Producto</th>
+                                    <!-- th scope="col">Imagen</th -->
+                                    <th scope="col">Precio</th>
+                                    <th scope="col">Stock</th>
+                                    <th scope="col"> </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Iterar sobre cada producto -->
+                                <tr class="" v-for="producto in productos">
+                                    <td style="text-align: center;" scope="row">{{producto.id}}</td>
+                                    <td style="font-weight: bold;">{{producto.nombre}}</td>
+                                    <td style="text-align: center; padding: 0;">
+                                        <img height="250" :src="producto.imagen" :alt="producto.nombre">
+                                    </td>
+                                    <td>{{producto.precio}} $</td>
+                                    <td style="text-align: center;">{{producto.stock}} unidades</td>
+                                    <td>
+                                        <!-- Botón para eliminar el producto -->
+                                        <button type="button" class="btn btn-danger animate__animated btn-animate boton_margen boton_margen"
+                                            v-on:click="eliminar(producto.id)">Eliminar</button>
+                                    </td>
+
+                                </tr>
+                                <tr><td colspan="6"> &nbsp;&nbsp; </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <!-- Coloca aquí el contenido del pie de página -->
+    </footer>
+
+    <!-- Enlace de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+    <!-- menu -->
+    <script src="./js/main.js"></script>
+
+    <!--Enlace de VUE-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- productos -->
+    <script src="./js/productos.js"></script>
+
+    <!-- footer -->
+    <script src="./js/footer.js"></script>
+
+</body>
+</html>
