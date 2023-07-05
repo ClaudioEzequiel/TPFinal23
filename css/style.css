@@ -10,6 +10,19 @@
     margin-top:80px;
 }
 
+
+/* formulario editar y nuevo producto */
+.style_form{
+    background-color: aliceblue;
+    margin: 10px auto ;
+    width: 550px;
+    padding: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
 /* sector boton NUEVO */
 .boton_nuevo{
     margin: 5px;
