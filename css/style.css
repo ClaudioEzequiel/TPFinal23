@@ -25,3 +25,13 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     /* Agrega una sombra */
 }
+
+/* footer */
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+.copy p{
+    line-height:4px;
+}
