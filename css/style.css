@@ -50,12 +50,15 @@
     /* Agrega una sombra */
 }
 
+/* efecto para las imagenes en PRODUCTOS al pasar el mouse para EDITAR o DELETE al registro */
 tr img {
     transition: transform 0.5s ease;
+    filter: drop-shadow(0 1px 5px #000);
   }
 tr:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 0.5s ease;
+    filter: drop-shadow(0 1px 8px #000);
   }
 
 
