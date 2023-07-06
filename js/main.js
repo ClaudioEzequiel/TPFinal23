@@ -13,7 +13,8 @@ document.getElementById(
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+      <!-- ul class="navbar-nav me-auto mt-2 mt-lg-0" -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <!-- li class="nav-item">
             <a class="nav-link active" href="index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
         </li -->
