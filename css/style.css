@@ -11,6 +11,13 @@
 }
 
 
+/* efecto en menu por hover en opciones */
+.navbar-nav .nav-link:hover{
+  color: orange !important;
+}
+
+
+
 /* formulario editar y nuevo producto */
 .style_form{
     background-color: aliceblue;
