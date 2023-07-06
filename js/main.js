@@ -22,13 +22,13 @@ document.getElementById(
             <a class="nav-link" href="detalle_productos.html">Detalle productos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="producto-create.html">Alta producto</a>
+            <a class="nav-link" href="producto-create.html">Alta</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="productos.html">Editar registros</a>
+            <a class="nav-link" href="productos.html">Editar</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="detalle_productos-delete.html">Elimina registros</a>
+            <a class="nav-link" href="detalle_productos-delete.html">Eliminar</a>
         </li>
         <!-- li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
