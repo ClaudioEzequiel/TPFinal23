@@ -20,6 +20,12 @@
     <main>
         <div id="app" class="container margen_top_menu" >
             <h1>Detalle de Productos</h1>
+            <div class="boton_nuevo boton_margen">
+                <!-- <a class="btn btn-primary" href="producto-create.html">Nuevo</a> -->
+                <!-- <a class="btn btn-primary btn-animate" href="producto-create.html">Nuevo</a> -->
+                <!-- a class="btn btn-success animate__animated animate__heartBeat btn-animate" href="producto-create.html">Nuevo</a -->
+                <button type="button" class="btn btn-success"><a href="producto-create.html">Agregar producto</a></button>
+            </div>
             <div v-if="error">
                 <p style="color:red;">Lo sentimos, ha ocurrido un error.</p>
             </div>
