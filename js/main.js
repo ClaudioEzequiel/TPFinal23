@@ -6,7 +6,7 @@ document.getElementById(
 ).innerHTML = ` <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-menu">
 <div class="container">
   <a class="navbar-brand" href="index.html">
-        <img src="img/logo Tienda TECNO.png" width="150" alt="Tienda TECNO">
+        <img src="img/logo Tienda TECNO.png" width="150" alt="Tienda TECNO"> <strong style="color:red;font-style: italic;vertical-align:bottom">Sistema CRUD</strong>
   </a>
   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
       aria-expanded="false" aria-label="Toggle navigation">
